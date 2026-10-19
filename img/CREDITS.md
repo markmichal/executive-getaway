@@ -27,3 +27,14 @@ Also from outside Linda's folder: `ds/cru-cornerstone/assets/photography/warm-wo
 | `story-lake-nona.jpg` | Lake Nona football story (stand-in still) | Frame from Steve Huerd's Lake Nona HS clip (IMG_6755.mov) in Drive. Video: https://vimeo.com/935201886 (Creative 1 Media) |
 | `story-peyton.jpg` | Peyton's story | Cropped from "Peyton Thumbnail no arrow.jpg" in Mark's Drive folder "Peyton Lee". Video: https://youtu.be/r57xdjenlQs |
 | `story-angel.jpg` | Angel's story | Cropped from the YouTube thumbnail. Video: https://www.youtube.com/watch?v=LOZ7hBum5bA |
+
+## "Why come" row (top four photos)
+
+All from Unsplash under the Unsplash License, cropped to 4:3.
+
+| File | Used for | Photographer | Source |
+|---|---|---|---|
+| `why-opportunities.jpg` | Meaningful Opportunities | Anthony McKissic | https://unsplash.com/photos/8y8OJiuQkCI |
+| `why-rest.jpg` | Rest and Relaxation | Christian Bowen (Glendalough, Ireland) | https://unsplash.com/photos/YAFz4mqEp_s |
+| `why-friends.jpg` | A Community of Friends | Vitaly Gariev | https://unsplash.com/photos/k7moOgpIkU8 |
+| `why-kids.jpg` | Bring the Kids! | Seljan Salim | https://unsplash.com/photos/6b2dnVlbVIU |
