@@ -19,3 +19,11 @@ Before adding a new photo, check its Unsplash page says "Free to use under the U
 The three kids' photos are stock stand-ins, so they keep their purple "Stand-in photo" tag on the page. Swap them for real photos of Cru's kids' and teen programs when we have them.
 
 Also from outside Linda's folder: `ds/cru-cornerstone/assets/photography/warm-woman-book.webp` comes with the Cru Cornerstone design system.
+
+## Story videos (Cru's own)
+
+| File | Used for | Source |
+|---|---|---|
+| `story-lake-nona.jpg` | Lake Nona football story (stand-in still) | Frame from Steve Huerd's Lake Nona HS clip (IMG_6755.mov) in Drive. Video: https://vimeo.com/935201886 (Creative 1 Media) |
+| `story-peyton.jpg` | Peyton's story | Cropped from "Peyton Thumbnail no arrow.jpg" in Mark's Drive folder "Peyton Lee". Video: https://youtu.be/r57xdjenlQs |
+| `story-angel.jpg` | Angel's story | Cropped from the YouTube thumbnail. Video: https://www.youtube.com/watch?v=LOZ7hBum5bA |
