@@ -1,0 +1,850 @@
+/* Cru® Cornerstone System — generated from tokens.json */
+:root, [data-theme="light"] {
+  --cs-color-lemon-95: #fff3c3; /* Lemon step 95. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-lemon-90: #ffe378; /* Lemon at its brand value — the step whose luminance already matched. Lightness steps are solved for WCAG luminance targets: 40 steps apart is 3:1, 50 is 4.5:1, 60 is 7:1. */
+  --cs-color-lemon-80: #e2c965; /* Lemon step 80. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-lemon-70: #c3ae5b; /* Lemon step 70. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-lemon-60: #a69553; /* Lemon step 60. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-lemon-50: #817544; /* Lemon step 50. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-lemon-40: #625835; /* Lemon step 40. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-lemon-30: #4d4529; /* Lemon step 30. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-lemon-20: #393219; /* Lemon step 20. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-lemon-10: #231d07; /* Lemon step 10. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-lemon-05: #171200; /* Lemon step 05. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-lemon: #ffe378; /* Lemon at its key step — use this rather than a step when you mean "the lemon". */
+  --cs-color-lemon-on: #231d07; /* Text/icon colour that meets contrast on a Lemon fill. */
+  --cs-color-yellow-95: #fff2cc; /* Yellow step 95. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-yellow-90: #ffe48e; /* Yellow step 90. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-yellow-80: #ffd000; /* Yellow at its brand value — the step whose luminance already matched. Lightness steps are solved for WCAG luminance targets: 40 steps apart is 3:1, 50 is 4.5:1, 60 is 7:1. */
+  --cs-color-yellow-70: #d2ab00; /* Yellow step 70. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-yellow-60: #b39200; /* Yellow step 60. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-yellow-50: #8e7300; /* Yellow step 50. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-yellow-40: #6c5702; /* Yellow step 40. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-yellow-30: #54440c; /* Yellow step 30. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-yellow-20: #3e3104; /* Yellow step 20. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-yellow-10: #261d00; /* Yellow step 10. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-yellow-05: #181200; /* Yellow step 05. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-yellow: #ffd000; /* Yellow at its key step — use this rather than a step when you mean "the yellow". */
+  --cs-color-yellow-on: #261d00; /* Text/icon colour that meets contrast on a Yellow fill. */
+  --cs-color-orange-95: #ffefe6; /* Orange step 95. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-orange-90: #ffe0cc; /* Orange step 90. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-orange-80: #ffbb8f; /* Orange step 80. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-orange-70: #f59857; /* Orange step 70. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-orange-60: #f08020; /* Orange at its brand value — the step whose luminance already matched. Lightness steps are solved for WCAG luminance targets: 40 steps apart is 3:1, 50 is 4.5:1, 60 is 7:1. */
+  --cs-color-orange-50: #b85d00; /* Orange step 50. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-orange-40: #8d4600; /* Orange step 40. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-orange-30: #703500; /* Orange step 30. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-orange-20: #532600; /* Orange step 20. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-orange-10: #341600; /* Orange step 10. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-orange-05: #230c00; /* Orange step 05. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-orange: #f08020; /* Orange at its key step — use this rather than a step when you mean "the orange". */
+  --cs-color-orange-on: #341600; /* Text/icon colour that meets contrast on a Orange fill. */
+  --cs-color-vermilion-95: #ffefeb; /* Vermilion step 95. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-vermilion-90: #ffded4; /* Vermilion step 90. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-vermilion-80: #f9bca8; /* Vermilion step 80. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-vermilion-70: #f1987c; /* Vermilion step 70. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-vermilion-60: #e8734c; /* Vermilion step 60. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-vermilion-50: #d34400; /* Vermilion at its brand value — the step whose luminance already matched. Lightness steps are solved for WCAG luminance targets: 40 steps apart is 3:1, 50 is 4.5:1, 60 is 7:1. */
+  --cs-color-vermilion-40: #a23200; /* Vermilion step 40. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-vermilion-30: #802600; /* Vermilion step 30. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-vermilion-20: #611a00; /* Vermilion step 20. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-vermilion-10: #3c0d00; /* Vermilion step 10. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-vermilion-05: #290600; /* Vermilion step 05. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-vermilion: #d34400; /* Vermilion at its key step — use this rather than a step when you mean "the vermilion". */
+  --cs-color-vermilion-on: #ffffff; /* Text/icon colour that meets contrast on a Vermilion fill. */
+  --cs-color-rose-95: #ffeef2; /* Rose step 95. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-rose-90: #ffdde5; /* Rose step 90. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-rose-80: #ffb4c8; /* Rose at its brand value — the step whose luminance already matched. Lightness steps are solved for WCAG luminance targets: 40 steps apart is 3:1, 50 is 4.5:1, 60 is 7:1. */
+  --cs-color-rose-70: #e09bae; /* Rose step 70. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-rose-60: #be8594; /* Rose step 60. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-rose-50: #966975; /* Rose step 50. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-rose-40: #725059; /* Rose step 40. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-rose-30: #583f45; /* Rose step 30. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-rose-20: #422d32; /* Rose step 20. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-rose-10: #29191d; /* Rose step 10. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-rose-05: #1c0e12; /* Rose step 05. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-rose: #ffb4c8; /* Rose at its key step — use this rather than a step when you mean "the rose". */
+  --cs-color-rose-on: #29191d; /* Text/icon colour that meets contrast on a Rose fill. */
+  --cs-color-pink-95: #ffeff1; /* Pink step 95. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-pink-90: #ffdee1; /* Pink step 90. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-pink-80: #ffb7c0; /* Pink step 80. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-pink-70: #fe8d9f; /* Pink step 70. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-pink-60: #ea657f; /* Pink at its brand value — the step whose luminance already matched. Lightness steps are solved for WCAG luminance targets: 40 steps apart is 3:1, 50 is 4.5:1, 60 is 7:1. */
+  --cs-color-pink-50: #c54c65; /* Pink step 50. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-pink-40: #9a364c; /* Pink step 40. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-pink-30: #79293b; /* Pink step 30. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-pink-20: #591e2b; /* Pink step 20. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-pink-10: #390e18; /* Pink step 10. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-pink-05: #28060d; /* Pink step 05. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-pink: #ea657f; /* Pink at its key step — use this rather than a step when you mean "the pink". */
+  --cs-color-pink-on: #390e18; /* Text/icon colour that meets contrast on a Pink fill. */
+  --cs-color-cerise-95: #fff0ef; /* Cerise step 95. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-cerise-90: #fededd; /* Cerise step 90. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-cerise-80: #f7bbba; /* Cerise step 80. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-cerise-70: #ec9898; /* Cerise step 70. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-cerise-60: #e47377; /* Cerise step 60. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-cerise-50: #c23c49; /* Cerise at its brand value — the step whose luminance already matched. Lightness steps are solved for WCAG luminance targets: 40 steps apart is 3:1, 50 is 4.5:1, 60 is 7:1. */
+  --cs-color-cerise-40: #a62938; /* Cerise step 40. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-cerise-30: #851d2a; /* Cerise step 30. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-cerise-20: #64131d; /* Cerise step 20. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-cerise-10: #42050e; /* Cerise step 10. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-cerise-05: #2c0307; /* Cerise step 05. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-cerise: #c23c49; /* Cerise at its key step — use this rather than a step when you mean "the cerise". */
+  --cs-color-cerise-on: #ffffff; /* Text/icon colour that meets contrast on a Cerise fill. */
+  --cs-color-ruby-95: #faf1ef; /* Ruby step 95. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-ruby-90: #ede3e2; /* Ruby step 90. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-ruby-80: #d7c6c3; /* Ruby step 80. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-ruby-70: #c5a8a3; /* Ruby step 70. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-ruby-60: #be8880; /* Ruby step 60. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-ruby-50: #ac6057; /* Ruby step 50. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-ruby-40: #9c362f; /* Ruby step 40. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-ruby-30: #991313; /* Ruby at its brand value — the step whose luminance already matched. Lightness steps are solved for WCAG luminance targets: 40 steps apart is 3:1, 50 is 4.5:1, 60 is 7:1. */
+  --cs-color-ruby-20: #6d0004; /* Ruby step 20. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-ruby-10: #460001; /* Ruby step 10. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-ruby-05: #2e0001; /* Ruby step 05. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-ruby: #991313; /* Ruby at its key step — use this rather than a step when you mean "the ruby". */
+  --cs-color-ruby-on: #ffffff; /* Text/icon colour that meets contrast on a Ruby fill. */
+  --cs-color-sky-95: #cdfbff; /* Sky step 95. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-sky-90: #89eff7; /* Sky at its brand value — the step whose luminance already matched. Lightness steps are solved for WCAG luminance targets: 40 steps apart is 3:1, 50 is 4.5:1, 60 is 7:1. */
+  --cs-color-sky-80: #7ad9e0; /* Sky step 80. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-sky-70: #6cbbc2; /* Sky step 70. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-sky-60: #609fa3; /* Sky step 60. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-sky-50: #4e7d80; /* Sky step 50. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-sky-40: #3d5f61; /* Sky step 40. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-sky-30: #2e4a4c; /* Sky step 30. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-sky-20: #1f3738; /* Sky step 20. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-sky-10: #0b2122; /* Sky step 10. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-sky-05: #021516; /* Sky step 05. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-sky: #89eff7; /* Sky at its key step — use this rather than a step when you mean "the sky". */
+  --cs-color-sky-on: #0b2122; /* Text/icon colour that meets contrast on a Sky fill. */
+  --cs-color-cyan-95: #d7f8ff; /* Cyan step 95. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-cyan-90: #a9f1ff; /* Cyan step 90. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-cyan-80: #69d9ed; /* Cyan step 80. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-cyan-70: #00c0d8; /* Cyan at its brand value — the step whose luminance already matched. Lightness steps are solved for WCAG luminance targets: 40 steps apart is 3:1, 50 is 4.5:1, 60 is 7:1. */
+  --cs-color-cyan-60: #00a3b8; /* Cyan step 60. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-cyan-50: #008192; /* Cyan step 50. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-cyan-40: #006270; /* Cyan step 40. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-cyan-30: #004d57; /* Cyan step 30. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-cyan-20: #033940; /* Cyan step 20. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-cyan-10: #002127; /* Cyan step 10. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-cyan-05: #001419; /* Cyan step 05. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-cyan: #00c0d8; /* Cyan at its key step — use this rather than a step when you mean "the cyan". */
+  --cs-color-cyan-on: #002127; /* Text/icon colour that meets contrast on a Cyan fill. */
+  --cs-color-turquoise-95: #ebf5f7; /* Turquoise step 95. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-turquoise-90: #d7e9ee; /* Turquoise step 90. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-turquoise-80: #aed0da; /* Turquoise step 80. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-turquoise-70: #84b7c6; /* Turquoise step 70. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-turquoise-60: #569eb3; /* Turquoise step 60. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-turquoise-50: #007890; /* Turquoise at its brand value — the step whose luminance already matched. Lightness steps are solved for WCAG luminance targets: 40 steps apart is 3:1, 50 is 4.5:1, 60 is 7:1. */
+  --cs-color-turquoise-40: #006175; /* Turquoise step 40. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-turquoise-30: #004d5d; /* Turquoise step 30. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-turquoise-20: #003744; /* Turquoise step 20. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-turquoise-10: #00222a; /* Turquoise step 10. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-turquoise-05: #00151b; /* Turquoise step 05. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-turquoise: #007890; /* Turquoise at its key step — use this rather than a step when you mean "the turquoise". */
+  --cs-color-turquoise-on: #ffffff; /* Text/icon colour that meets contrast on a Turquoise fill. */
+  --cs-color-navy-95: #f2f3f6; /* Navy step 95. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-navy-90: #e5e6e9; /* Navy step 90. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-navy-80: #c9cacd; /* Navy step 80. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-navy-70: #aeafb2; /* Navy step 70. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-navy-60: #94949a; /* Navy step 60. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-navy-50: #73747f; /* Navy step 50. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-navy-40: #56586a; /* Navy step 40. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-navy-30: #41435d; /* Navy step 30. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-navy-20: #2e2f51; /* Navy step 20. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-navy-10: #1f1f47; /* Navy at its brand value — the step whose luminance already matched. Lightness steps are solved for WCAG luminance targets: 40 steps apart is 3:1, 50 is 4.5:1, 60 is 7:1. */
+  --cs-color-navy-05: #0f0d30; /* Navy step 05. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-navy: #1f1f47; /* Navy at its key step — use this rather than a step when you mean "the navy". */
+  --cs-color-navy-on: #ffffff; /* Text/icon colour that meets contrast on a Navy fill. */
+  --cs-color-mint-95: #c9fee2; /* Mint step 95. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-mint-90: #abf5cf; /* Mint step 90. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-mint-80: #88e4b6; /* Mint at its brand value — the step whose luminance already matched. Lightness steps are solved for WCAG luminance targets: 40 steps apart is 3:1, 50 is 4.5:1, 60 is 7:1. */
+  --cs-color-mint-70: #6bbf96; /* Mint step 70. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-mint-60: #5ba27f; /* Mint step 60. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-mint-50: #498065; /* Mint step 50. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-mint-40: #38624d; /* Mint step 40. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-mint-30: #2d4b3c; /* Mint step 30. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-mint-20: #1f382b; /* Mint step 20. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-mint-10: #0c2117; /* Mint step 10. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-mint-05: #04150d; /* Mint step 05. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-mint: #88e4b6; /* Mint at its key step — use this rather than a step when you mean "the mint". */
+  --cs-color-mint-on: #0c2117; /* Text/icon colour that meets contrast on a Mint fill. */
+  --cs-color-green-95: #cbfedb; /* Green step 95. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-green-90: #a8f7c2; /* Green step 90. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-green-80: #6ee09a; /* Green step 80. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-green-70: #24c976; /* Green at its brand value — the step whose luminance already matched. Lightness steps are solved for WCAG luminance targets: 40 steps apart is 3:1, 50 is 4.5:1, 60 is 7:1. */
+  --cs-color-green-60: #00aa60; /* Green step 60. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-green-50: #00874b; /* Green step 50. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-green-40: #006637; /* Green step 40. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-green-30: #05502b; /* Green step 30. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-green-20: #063b1f; /* Green step 20. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-green-10: #00240f; /* Green step 10. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-green-05: #001708; /* Green step 05. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-green: #24c976; /* Green at its key step — use this rather than a step when you mean "the green". */
+  --cs-color-green-on: #00240f; /* Text/icon colour that meets contrast on a Green fill. */
+  --cs-color-moss-95: #f1f3f2; /* Moss step 95. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-moss-90: #e3e6e5; /* Moss step 90. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-moss-80: #c6cbc8; /* Moss step 80. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-moss-70: #a7b2ab; /* Moss step 70. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-moss-60: #89988f; /* Moss step 60. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-moss-50: #657a6e; /* Moss step 50. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-moss-40: #476052; /* Moss at its brand value — the step whose luminance already matched. Lightness steps are solved for WCAG luminance targets: 40 steps apart is 3:1, 50 is 4.5:1, 60 is 7:1. */
+  --cs-color-moss-30: #344a3e; /* Moss step 30. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-moss-20: #24372c; /* Moss step 20. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-moss-10: #122119; /* Moss step 10. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-moss-05: #0a140f; /* Moss step 05. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-moss: #476052; /* Moss at its key step — use this rather than a step when you mean "the moss". */
+  --cs-color-moss-on: #ffffff; /* Text/icon colour that meets contrast on a Moss fill. */
+  --cs-color-olive-drab-95: #f2f3f2; /* Olive drab step 95. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-olive-drab-90: #e5e5e5; /* Olive drab step 90. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-olive-drab-80: #c9c9c9; /* Olive drab step 80. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-olive-drab-70: #adafae; /* Olive drab step 70. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-olive-drab-60: #939694; /* Olive drab step 60. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-olive-drab-50: #717673; /* Olive drab step 50. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-olive-drab-40: #535b56; /* Olive drab step 40. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-olive-drab-30: #3d4841; /* Olive drab step 30. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-olive-drab-20: #2e3a33; /* Olive drab at its brand value — the step whose luminance already matched. Lightness steps are solved for WCAG luminance targets: 40 steps apart is 3:1, 50 is 4.5:1, 60 is 7:1. */
+  --cs-color-olive-drab-10: #15201a; /* Olive drab step 10. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-olive-drab-05: #0b140f; /* Olive drab step 05. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-olive-drab: #2e3a33; /* Olive drab at its key step — use this rather than a step when you mean "the olive-drab". */
+  --cs-color-olive-drab-on: #ffffff; /* Text/icon colour that meets contrast on a Olive drab fill. */
+  --cs-color-gray-95: #f0efee; /* Gray at its brand value — the step whose luminance already matched. Lightness steps are solved for WCAG luminance targets: 40 steps apart is 3:1, 50 is 4.5:1, 60 is 7:1. */
+  --cs-color-gray-90: #e5e6e5; /* Gray step 90. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-gray-80: #cacaca; /* Gray step 80. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-gray-70: #aeaeae; /* Gray step 70. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-gray-60: #949595; /* Gray step 60. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-gray-50: #757575; /* Gray step 50. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-gray-40: #565652; /* Gray step 40. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-gray-30: #464545; /* Gray step 30. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-gray-20: #323232; /* Gray step 20. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-gray-10: #1d1d1d; /* Gray step 10. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-gray-05: #121212; /* Gray step 05. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-gray: #f0efee; /* Gray at its key step — use this rather than a step when you mean "the gray". */
+  --cs-color-gray-on: #1d1d1d; /* Text/icon colour that meets contrast on a Gray fill. */
+  --cs-color-graphite-95: #f0efee; /* Graphite step 95. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-graphite-90: #e5e6e5; /* Graphite step 90. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-graphite-80: #cacaca; /* Graphite step 80. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-graphite-70: #aeaeae; /* Graphite step 70. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-graphite-60: #949595; /* Graphite step 60. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-graphite-50: #757575; /* Graphite step 50. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-graphite-40: #565652; /* Graphite at its brand value — the step whose luminance already matched. Lightness steps are solved for WCAG luminance targets: 40 steps apart is 3:1, 50 is 4.5:1, 60 is 7:1. */
+  --cs-color-graphite-30: #464545; /* Graphite step 30. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-graphite-20: #323232; /* Graphite step 20. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-graphite-10: #1d1d1d; /* Graphite step 10. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-graphite-05: #121212; /* Graphite step 05. Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-graphite: #565652; /* Graphite at its key step — use this rather than a step when you mean "the graphite". */
+  --cs-color-graphite-on: #ffffff; /* Text/icon colour that meets contrast on a Graphite fill. */
+  --cs-color-purple-95: #f5f1fc; /* Purple step 95, synthesized to fill the highlight role (not a Cru brand hue). Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-purple-90: #eae2f6; /* Purple step 90, synthesized to fill the highlight role (not a Cru brand hue). Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-purple-80: #d3c3e8; /* Purple step 80, synthesized to fill the highlight role (not a Cru brand hue). Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-purple-70: #bca5da; /* Purple step 70, synthesized to fill the highlight role (not a Cru brand hue). Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-purple-60: #a886ce; /* Purple step 60, synthesized to fill the highlight role (not a Cru brand hue). Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-purple-50: #8c63b7; /* Purple step 50, synthesized to fill the highlight role (not a Cru brand hue). Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-purple-40: #6d4793; /* Purple step 40, synthesized to fill the highlight role (not a Cru brand hue). Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-purple-30: #563776; /* Purple step 30, synthesized to fill the highlight role (not a Cru brand hue). Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-purple-20: #402758; /* Purple step 20, synthesized to fill the highlight role (not a Cru brand hue). Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-purple-10: #271539; /* Purple step 10, synthesized to fill the highlight role (not a Cru brand hue). Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-purple-05: #190b26; /* Purple step 05, synthesized to fill the highlight role (not a Cru brand hue). Pair with a step 50 apart for 4.5:1 text contrast. */
+  --cs-color-purple: #8c63b7; /* Purple at its key step — use this rather than a step when you mean "the purple". */
+  --cs-color-purple-on: #ffffff; /* Text/icon colour that meets contrast on a Purple fill. */
+  --cs-color-brand-95: var(--cs-color-yellow-95); /* Brand role, step 95. The role points at yellow; re-point it on a container with .cs-brand-<hue>. */
+  --cs-color-brand-90: var(--cs-color-yellow-90); /* Brand role, step 90. The role points at yellow; re-point it on a container with .cs-brand-<hue>. */
+  --cs-color-brand-80: var(--cs-color-yellow-80); /* Brand role, step 80. The role points at yellow; re-point it on a container with .cs-brand-<hue>. */
+  --cs-color-brand-70: var(--cs-color-yellow-70); /* Brand role, step 70. The role points at yellow; re-point it on a container with .cs-brand-<hue>. */
+  --cs-color-brand-60: var(--cs-color-yellow-60); /* Brand role, step 60. The role points at yellow; re-point it on a container with .cs-brand-<hue>. */
+  --cs-color-brand-50: var(--cs-color-yellow-50); /* Brand role, step 50. The role points at yellow; re-point it on a container with .cs-brand-<hue>. */
+  --cs-color-brand-40: var(--cs-color-yellow-40); /* Brand role, step 40. The role points at yellow; re-point it on a container with .cs-brand-<hue>. */
+  --cs-color-brand-30: var(--cs-color-yellow-30); /* Brand role, step 30. The role points at yellow; re-point it on a container with .cs-brand-<hue>. */
+  --cs-color-brand-20: var(--cs-color-yellow-20); /* Brand role, step 20. The role points at yellow; re-point it on a container with .cs-brand-<hue>. */
+  --cs-color-brand-10: var(--cs-color-yellow-10); /* Brand role, step 10. The role points at yellow; re-point it on a container with .cs-brand-<hue>. */
+  --cs-color-brand-05: var(--cs-color-yellow-05); /* Brand role, step 05. The role points at yellow; re-point it on a container with .cs-brand-<hue>. */
+  --cs-color-brand: #ffd000; /* Brand at its key step. */
+  --cs-color-brand-on: #261d00; /* Text/icon colour that meets contrast on a brand fill. */
+  --cs-color-brand-fill-quiet: #fff2cc; /* Background fill for brand — the lightest of the three — backgrounds and subtle surfaces. Always pair on-quiet with fill-quiet. */
+  --cs-color-brand-fill-normal: #ffe48e; /* Background fill for brand — the middle tone — default fills and borders. Always pair on-normal with fill-normal. */
+  --cs-color-brand-fill-loud: #ffd000; /* Background fill for brand — the strongest tone — primary actions and emphasis. Always pair on-loud with fill-loud. */
+  --cs-color-brand-border-quiet: #ffe48e; /* Border for brand — the lightest of the three — backgrounds and subtle surfaces. Always pair on-quiet with fill-quiet. */
+  --cs-color-brand-border-normal: #ffd000; /* Border for brand — the middle tone — default fills and borders. Always pair on-normal with fill-normal. */
+  --cs-color-brand-border-loud: #ffd000; /* Border for brand — the strongest tone — primary actions and emphasis. Always pair on-loud with fill-loud. */
+  --cs-color-brand-on-quiet: #6c5702; /* Text and icons on the matching fill for brand — the lightest of the three — backgrounds and subtle surfaces. Always pair on-quiet with fill-quiet. */
+  --cs-color-brand-on-normal: #54440c; /* Text and icons on the matching fill for brand — the middle tone — default fills and borders. Always pair on-normal with fill-normal. */
+  --cs-color-brand-on-loud: #261d00; /* Text and icons on the matching fill for brand — the strongest tone — primary actions and emphasis. Always pair on-loud with fill-loud. */
+  --cs-color-neutral-95: var(--cs-color-gray-95); /* Neutral role, step 95. The role points at gray; re-point it on a container with .cs-neutral-<hue>. */
+  --cs-color-neutral-90: var(--cs-color-gray-90); /* Neutral role, step 90. The role points at gray; re-point it on a container with .cs-neutral-<hue>. */
+  --cs-color-neutral-80: var(--cs-color-gray-80); /* Neutral role, step 80. The role points at gray; re-point it on a container with .cs-neutral-<hue>. */
+  --cs-color-neutral-70: var(--cs-color-gray-70); /* Neutral role, step 70. The role points at gray; re-point it on a container with .cs-neutral-<hue>. */
+  --cs-color-neutral-60: var(--cs-color-gray-60); /* Neutral role, step 60. The role points at gray; re-point it on a container with .cs-neutral-<hue>. */
+  --cs-color-neutral-50: var(--cs-color-gray-50); /* Neutral role, step 50. The role points at gray; re-point it on a container with .cs-neutral-<hue>. */
+  --cs-color-neutral-40: var(--cs-color-gray-40); /* Neutral role, step 40. The role points at gray; re-point it on a container with .cs-neutral-<hue>. */
+  --cs-color-neutral-30: var(--cs-color-gray-30); /* Neutral role, step 30. The role points at gray; re-point it on a container with .cs-neutral-<hue>. */
+  --cs-color-neutral-20: var(--cs-color-gray-20); /* Neutral role, step 20. The role points at gray; re-point it on a container with .cs-neutral-<hue>. */
+  --cs-color-neutral-10: var(--cs-color-gray-10); /* Neutral role, step 10. The role points at gray; re-point it on a container with .cs-neutral-<hue>. */
+  --cs-color-neutral-05: var(--cs-color-gray-05); /* Neutral role, step 05. The role points at gray; re-point it on a container with .cs-neutral-<hue>. */
+  --cs-color-neutral: #f0efee; /* Neutral at its key step. */
+  --cs-color-neutral-on: #1d1d1d; /* Text/icon colour that meets contrast on a neutral fill. */
+  --cs-color-neutral-fill-quiet: #f0efee; /* Background fill for neutral — the lightest of the three — backgrounds and subtle surfaces. Always pair on-quiet with fill-quiet. */
+  --cs-color-neutral-fill-normal: #e5e6e5; /* Background fill for neutral — the middle tone — default fills and borders. Always pair on-normal with fill-normal. */
+  --cs-color-neutral-fill-loud: #323232; /* Background fill for neutral — the strongest tone — primary actions and emphasis. Always pair on-loud with fill-loud. */
+  --cs-color-neutral-border-quiet: #e5e6e5; /* Border for neutral — the lightest of the three — backgrounds and subtle surfaces. Always pair on-quiet with fill-quiet. */
+  --cs-color-neutral-border-normal: #cacaca; /* Border for neutral — the middle tone — default fills and borders. Always pair on-normal with fill-normal. */
+  --cs-color-neutral-border-loud: #757575; /* Border for neutral — the strongest tone — primary actions and emphasis. Always pair on-loud with fill-loud. */
+  --cs-color-neutral-on-quiet: #565652; /* Text and icons on the matching fill for neutral — the lightest of the three — backgrounds and subtle surfaces. Always pair on-quiet with fill-quiet. */
+  --cs-color-neutral-on-normal: #464545; /* Text and icons on the matching fill for neutral — the middle tone — default fills and borders. Always pair on-normal with fill-normal. */
+  --cs-color-neutral-on-loud: #ffffff; /* Text and icons on the matching fill for neutral — the strongest tone — primary actions and emphasis. Always pair on-loud with fill-loud. */
+  --cs-color-highlight-95: var(--cs-color-purple-95); /* Highlight role, step 95. The role points at purple; re-point it on a container with .cs-highlight-<hue>. */
+  --cs-color-highlight-90: var(--cs-color-purple-90); /* Highlight role, step 90. The role points at purple; re-point it on a container with .cs-highlight-<hue>. */
+  --cs-color-highlight-80: var(--cs-color-purple-80); /* Highlight role, step 80. The role points at purple; re-point it on a container with .cs-highlight-<hue>. */
+  --cs-color-highlight-70: var(--cs-color-purple-70); /* Highlight role, step 70. The role points at purple; re-point it on a container with .cs-highlight-<hue>. */
+  --cs-color-highlight-60: var(--cs-color-purple-60); /* Highlight role, step 60. The role points at purple; re-point it on a container with .cs-highlight-<hue>. */
+  --cs-color-highlight-50: var(--cs-color-purple-50); /* Highlight role, step 50. The role points at purple; re-point it on a container with .cs-highlight-<hue>. */
+  --cs-color-highlight-40: var(--cs-color-purple-40); /* Highlight role, step 40. The role points at purple; re-point it on a container with .cs-highlight-<hue>. */
+  --cs-color-highlight-30: var(--cs-color-purple-30); /* Highlight role, step 30. The role points at purple; re-point it on a container with .cs-highlight-<hue>. */
+  --cs-color-highlight-20: var(--cs-color-purple-20); /* Highlight role, step 20. The role points at purple; re-point it on a container with .cs-highlight-<hue>. */
+  --cs-color-highlight-10: var(--cs-color-purple-10); /* Highlight role, step 10. The role points at purple; re-point it on a container with .cs-highlight-<hue>. */
+  --cs-color-highlight-05: var(--cs-color-purple-05); /* Highlight role, step 05. The role points at purple; re-point it on a container with .cs-highlight-<hue>. */
+  --cs-color-highlight: #8c63b7; /* Highlight at its key step. */
+  --cs-color-highlight-on: #ffffff; /* Text/icon colour that meets contrast on a highlight fill. */
+  --cs-color-highlight-fill-quiet: #f5f1fc; /* Background fill for highlight — the lightest of the three — backgrounds and subtle surfaces. Always pair on-quiet with fill-quiet. */
+  --cs-color-highlight-fill-normal: #eae2f6; /* Background fill for highlight — the middle tone — default fills and borders. Always pair on-normal with fill-normal. */
+  --cs-color-highlight-fill-loud: #8c63b7; /* Background fill for highlight — the strongest tone — primary actions and emphasis. Always pair on-loud with fill-loud. */
+  --cs-color-highlight-border-quiet: #eae2f6; /* Border for highlight — the lightest of the three — backgrounds and subtle surfaces. Always pair on-quiet with fill-quiet. */
+  --cs-color-highlight-border-normal: #d3c3e8; /* Border for highlight — the middle tone — default fills and borders. Always pair on-normal with fill-normal. */
+  --cs-color-highlight-border-loud: #8c63b7; /* Border for highlight — the strongest tone — primary actions and emphasis. Always pair on-loud with fill-loud. */
+  --cs-color-highlight-on-quiet: #6d4793; /* Text and icons on the matching fill for highlight — the lightest of the three — backgrounds and subtle surfaces. Always pair on-quiet with fill-quiet. */
+  --cs-color-highlight-on-normal: #563776; /* Text and icons on the matching fill for highlight — the middle tone — default fills and borders. Always pair on-normal with fill-normal. */
+  --cs-color-highlight-on-loud: #ffffff; /* Text and icons on the matching fill for highlight — the strongest tone — primary actions and emphasis. Always pair on-loud with fill-loud. */
+  --cs-color-information-95: var(--cs-color-turquoise-95); /* Information role, step 95. The role points at turquoise; re-point it on a container with .cs-information-<hue>. */
+  --cs-color-information-90: var(--cs-color-turquoise-90); /* Information role, step 90. The role points at turquoise; re-point it on a container with .cs-information-<hue>. */
+  --cs-color-information-80: var(--cs-color-turquoise-80); /* Information role, step 80. The role points at turquoise; re-point it on a container with .cs-information-<hue>. */
+  --cs-color-information-70: var(--cs-color-turquoise-70); /* Information role, step 70. The role points at turquoise; re-point it on a container with .cs-information-<hue>. */
+  --cs-color-information-60: var(--cs-color-turquoise-60); /* Information role, step 60. The role points at turquoise; re-point it on a container with .cs-information-<hue>. */
+  --cs-color-information-50: var(--cs-color-turquoise-50); /* Information role, step 50. The role points at turquoise; re-point it on a container with .cs-information-<hue>. */
+  --cs-color-information-40: var(--cs-color-turquoise-40); /* Information role, step 40. The role points at turquoise; re-point it on a container with .cs-information-<hue>. */
+  --cs-color-information-30: var(--cs-color-turquoise-30); /* Information role, step 30. The role points at turquoise; re-point it on a container with .cs-information-<hue>. */
+  --cs-color-information-20: var(--cs-color-turquoise-20); /* Information role, step 20. The role points at turquoise; re-point it on a container with .cs-information-<hue>. */
+  --cs-color-information-10: var(--cs-color-turquoise-10); /* Information role, step 10. The role points at turquoise; re-point it on a container with .cs-information-<hue>. */
+  --cs-color-information-05: var(--cs-color-turquoise-05); /* Information role, step 05. The role points at turquoise; re-point it on a container with .cs-information-<hue>. */
+  --cs-color-information: #007890; /* Information at its key step. */
+  --cs-color-information-on: #ffffff; /* Text/icon colour that meets contrast on a information fill. */
+  --cs-color-information-fill-quiet: #ebf5f7; /* Background fill for information — the lightest of the three — backgrounds and subtle surfaces. Always pair on-quiet with fill-quiet. */
+  --cs-color-information-fill-normal: #d7e9ee; /* Background fill for information — the middle tone — default fills and borders. Always pair on-normal with fill-normal. */
+  --cs-color-information-fill-loud: #007890; /* Background fill for information — the strongest tone — primary actions and emphasis. Always pair on-loud with fill-loud. */
+  --cs-color-information-border-quiet: #d7e9ee; /* Border for information — the lightest of the three — backgrounds and subtle surfaces. Always pair on-quiet with fill-quiet. */
+  --cs-color-information-border-normal: #aed0da; /* Border for information — the middle tone — default fills and borders. Always pair on-normal with fill-normal. */
+  --cs-color-information-border-loud: #007890; /* Border for information — the strongest tone — primary actions and emphasis. Always pair on-loud with fill-loud. */
+  --cs-color-information-on-quiet: #006175; /* Text and icons on the matching fill for information — the lightest of the three — backgrounds and subtle surfaces. Always pair on-quiet with fill-quiet. */
+  --cs-color-information-on-normal: #004d5d; /* Text and icons on the matching fill for information — the middle tone — default fills and borders. Always pair on-normal with fill-normal. */
+  --cs-color-information-on-loud: #ffffff; /* Text and icons on the matching fill for information — the strongest tone — primary actions and emphasis. Always pair on-loud with fill-loud. */
+  --cs-color-success-95: var(--cs-color-green-95); /* Success role, step 95. The role points at green; re-point it on a container with .cs-success-<hue>. */
+  --cs-color-success-90: var(--cs-color-green-90); /* Success role, step 90. The role points at green; re-point it on a container with .cs-success-<hue>. */
+  --cs-color-success-80: var(--cs-color-green-80); /* Success role, step 80. The role points at green; re-point it on a container with .cs-success-<hue>. */
+  --cs-color-success-70: var(--cs-color-green-70); /* Success role, step 70. The role points at green; re-point it on a container with .cs-success-<hue>. */
+  --cs-color-success-60: var(--cs-color-green-60); /* Success role, step 60. The role points at green; re-point it on a container with .cs-success-<hue>. */
+  --cs-color-success-50: var(--cs-color-green-50); /* Success role, step 50. The role points at green; re-point it on a container with .cs-success-<hue>. */
+  --cs-color-success-40: var(--cs-color-green-40); /* Success role, step 40. The role points at green; re-point it on a container with .cs-success-<hue>. */
+  --cs-color-success-30: var(--cs-color-green-30); /* Success role, step 30. The role points at green; re-point it on a container with .cs-success-<hue>. */
+  --cs-color-success-20: var(--cs-color-green-20); /* Success role, step 20. The role points at green; re-point it on a container with .cs-success-<hue>. */
+  --cs-color-success-10: var(--cs-color-green-10); /* Success role, step 10. The role points at green; re-point it on a container with .cs-success-<hue>. */
+  --cs-color-success-05: var(--cs-color-green-05); /* Success role, step 05. The role points at green; re-point it on a container with .cs-success-<hue>. */
+  --cs-color-success: #24c976; /* Success at its key step. */
+  --cs-color-success-on: #00240f; /* Text/icon colour that meets contrast on a success fill. */
+  --cs-color-success-fill-quiet: #cbfedb; /* Background fill for success — the lightest of the three — backgrounds and subtle surfaces. Always pair on-quiet with fill-quiet. */
+  --cs-color-success-fill-normal: #a8f7c2; /* Background fill for success — the middle tone — default fills and borders. Always pair on-normal with fill-normal. */
+  --cs-color-success-fill-loud: #24c976; /* Background fill for success — the strongest tone — primary actions and emphasis. Always pair on-loud with fill-loud. */
+  --cs-color-success-border-quiet: #a8f7c2; /* Border for success — the lightest of the three — backgrounds and subtle surfaces. Always pair on-quiet with fill-quiet. */
+  --cs-color-success-border-normal: #6ee09a; /* Border for success — the middle tone — default fills and borders. Always pair on-normal with fill-normal. */
+  --cs-color-success-border-loud: #00874b; /* Border for success — the strongest tone — primary actions and emphasis. Always pair on-loud with fill-loud. */
+  --cs-color-success-on-quiet: #006637; /* Text and icons on the matching fill for success — the lightest of the three — backgrounds and subtle surfaces. Always pair on-quiet with fill-quiet. */
+  --cs-color-success-on-normal: #05502b; /* Text and icons on the matching fill for success — the middle tone — default fills and borders. Always pair on-normal with fill-normal. */
+  --cs-color-success-on-loud: #00240f; /* Text and icons on the matching fill for success — the strongest tone — primary actions and emphasis. Always pair on-loud with fill-loud. */
+  --cs-color-warning-95: var(--cs-color-orange-95); /* Warning role, step 95. The role points at orange; re-point it on a container with .cs-warning-<hue>. */
+  --cs-color-warning-90: var(--cs-color-orange-90); /* Warning role, step 90. The role points at orange; re-point it on a container with .cs-warning-<hue>. */
+  --cs-color-warning-80: var(--cs-color-orange-80); /* Warning role, step 80. The role points at orange; re-point it on a container with .cs-warning-<hue>. */
+  --cs-color-warning-70: var(--cs-color-orange-70); /* Warning role, step 70. The role points at orange; re-point it on a container with .cs-warning-<hue>. */
+  --cs-color-warning-60: var(--cs-color-orange-60); /* Warning role, step 60. The role points at orange; re-point it on a container with .cs-warning-<hue>. */
+  --cs-color-warning-50: var(--cs-color-orange-50); /* Warning role, step 50. The role points at orange; re-point it on a container with .cs-warning-<hue>. */
+  --cs-color-warning-40: var(--cs-color-orange-40); /* Warning role, step 40. The role points at orange; re-point it on a container with .cs-warning-<hue>. */
+  --cs-color-warning-30: var(--cs-color-orange-30); /* Warning role, step 30. The role points at orange; re-point it on a container with .cs-warning-<hue>. */
+  --cs-color-warning-20: var(--cs-color-orange-20); /* Warning role, step 20. The role points at orange; re-point it on a container with .cs-warning-<hue>. */
+  --cs-color-warning-10: var(--cs-color-orange-10); /* Warning role, step 10. The role points at orange; re-point it on a container with .cs-warning-<hue>. */
+  --cs-color-warning-05: var(--cs-color-orange-05); /* Warning role, step 05. The role points at orange; re-point it on a container with .cs-warning-<hue>. */
+  --cs-color-warning: #f08020; /* Warning at its key step. */
+  --cs-color-warning-on: #341600; /* Text/icon colour that meets contrast on a warning fill. */
+  --cs-color-warning-fill-quiet: #ffefe6; /* Background fill for warning — the lightest of the three — backgrounds and subtle surfaces. Always pair on-quiet with fill-quiet. */
+  --cs-color-warning-fill-normal: #ffe0cc; /* Background fill for warning — the middle tone — default fills and borders. Always pair on-normal with fill-normal. */
+  --cs-color-warning-fill-loud: #f08020; /* Background fill for warning — the strongest tone — primary actions and emphasis. Always pair on-loud with fill-loud. */
+  --cs-color-warning-border-quiet: #ffe0cc; /* Border for warning — the lightest of the three — backgrounds and subtle surfaces. Always pair on-quiet with fill-quiet. */
+  --cs-color-warning-border-normal: #ffbb8f; /* Border for warning — the middle tone — default fills and borders. Always pair on-normal with fill-normal. */
+  --cs-color-warning-border-loud: #b85d00; /* Border for warning — the strongest tone — primary actions and emphasis. Always pair on-loud with fill-loud. */
+  --cs-color-warning-on-quiet: #8d4600; /* Text and icons on the matching fill for warning — the lightest of the three — backgrounds and subtle surfaces. Always pair on-quiet with fill-quiet. */
+  --cs-color-warning-on-normal: #703500; /* Text and icons on the matching fill for warning — the middle tone — default fills and borders. Always pair on-normal with fill-normal. */
+  --cs-color-warning-on-loud: #341600; /* Text and icons on the matching fill for warning — the strongest tone — primary actions and emphasis. Always pair on-loud with fill-loud. */
+  --cs-color-danger-95: var(--cs-color-cerise-95); /* Danger role, step 95. The role points at cerise; re-point it on a container with .cs-danger-<hue>. */
+  --cs-color-danger-90: var(--cs-color-cerise-90); /* Danger role, step 90. The role points at cerise; re-point it on a container with .cs-danger-<hue>. */
+  --cs-color-danger-80: var(--cs-color-cerise-80); /* Danger role, step 80. The role points at cerise; re-point it on a container with .cs-danger-<hue>. */
+  --cs-color-danger-70: var(--cs-color-cerise-70); /* Danger role, step 70. The role points at cerise; re-point it on a container with .cs-danger-<hue>. */
+  --cs-color-danger-60: var(--cs-color-cerise-60); /* Danger role, step 60. The role points at cerise; re-point it on a container with .cs-danger-<hue>. */
+  --cs-color-danger-50: var(--cs-color-cerise-50); /* Danger role, step 50. The role points at cerise; re-point it on a container with .cs-danger-<hue>. */
+  --cs-color-danger-40: var(--cs-color-cerise-40); /* Danger role, step 40. The role points at cerise; re-point it on a container with .cs-danger-<hue>. */
+  --cs-color-danger-30: var(--cs-color-cerise-30); /* Danger role, step 30. The role points at cerise; re-point it on a container with .cs-danger-<hue>. */
+  --cs-color-danger-20: var(--cs-color-cerise-20); /* Danger role, step 20. The role points at cerise; re-point it on a container with .cs-danger-<hue>. */
+  --cs-color-danger-10: var(--cs-color-cerise-10); /* Danger role, step 10. The role points at cerise; re-point it on a container with .cs-danger-<hue>. */
+  --cs-color-danger-05: var(--cs-color-cerise-05); /* Danger role, step 05. The role points at cerise; re-point it on a container with .cs-danger-<hue>. */
+  --cs-color-danger: #c23c49; /* Danger at its key step. */
+  --cs-color-danger-on: #ffffff; /* Text/icon colour that meets contrast on a danger fill. */
+  --cs-color-danger-fill-quiet: #fff0ef; /* Background fill for danger — the lightest of the three — backgrounds and subtle surfaces. Always pair on-quiet with fill-quiet. */
+  --cs-color-danger-fill-normal: #fededd; /* Background fill for danger — the middle tone — default fills and borders. Always pair on-normal with fill-normal. */
+  --cs-color-danger-fill-loud: #c23c49; /* Background fill for danger — the strongest tone — primary actions and emphasis. Always pair on-loud with fill-loud. */
+  --cs-color-danger-border-quiet: #fededd; /* Border for danger — the lightest of the three — backgrounds and subtle surfaces. Always pair on-quiet with fill-quiet. */
+  --cs-color-danger-border-normal: #f7bbba; /* Border for danger — the middle tone — default fills and borders. Always pair on-normal with fill-normal. */
+  --cs-color-danger-border-loud: #c23c49; /* Border for danger — the strongest tone — primary actions and emphasis. Always pair on-loud with fill-loud. */
+  --cs-color-danger-on-quiet: #a62938; /* Text and icons on the matching fill for danger — the lightest of the three — backgrounds and subtle surfaces. Always pair on-quiet with fill-quiet. */
+  --cs-color-danger-on-normal: #851d2a; /* Text and icons on the matching fill for danger — the middle tone — default fills and borders. Always pair on-normal with fill-normal. */
+  --cs-color-danger-on-loud: #ffffff; /* Text and icons on the matching fill for danger — the strongest tone — primary actions and emphasis. Always pair on-loud with fill-loud. */
+  --cs-color-link-95: var(--cs-color-cyan-95); /* Link role, step 95. The role points at cyan; re-point it on a container with .cs-link-<hue>. */
+  --cs-color-link-90: var(--cs-color-cyan-90); /* Link role, step 90. The role points at cyan; re-point it on a container with .cs-link-<hue>. */
+  --cs-color-link-80: var(--cs-color-cyan-80); /* Link role, step 80. The role points at cyan; re-point it on a container with .cs-link-<hue>. */
+  --cs-color-link-70: var(--cs-color-cyan-70); /* Link role, step 70. The role points at cyan; re-point it on a container with .cs-link-<hue>. */
+  --cs-color-link-60: var(--cs-color-cyan-60); /* Link role, step 60. The role points at cyan; re-point it on a container with .cs-link-<hue>. */
+  --cs-color-link-50: var(--cs-color-cyan-50); /* Link role, step 50. The role points at cyan; re-point it on a container with .cs-link-<hue>. */
+  --cs-color-link-40: var(--cs-color-cyan-40); /* Link role, step 40. The role points at cyan; re-point it on a container with .cs-link-<hue>. */
+  --cs-color-link-30: var(--cs-color-cyan-30); /* Link role, step 30. The role points at cyan; re-point it on a container with .cs-link-<hue>. */
+  --cs-color-link-20: var(--cs-color-cyan-20); /* Link role, step 20. The role points at cyan; re-point it on a container with .cs-link-<hue>. */
+  --cs-color-link-10: var(--cs-color-cyan-10); /* Link role, step 10. The role points at cyan; re-point it on a container with .cs-link-<hue>. */
+  --cs-color-link-05: var(--cs-color-cyan-05); /* Link role, step 05. The role points at cyan; re-point it on a container with .cs-link-<hue>. */
+  --cs-color-link: #00c0d8; /* Link at its key step. */
+  --cs-color-link-on: #002127; /* Text/icon colour that meets contrast on a link fill. */
+  --cs-color-border-loud: #757575; /* Neutral border, strongest tone. */
+  --cs-color-border-normal: #cacaca; /* Neutral border, default tone. */
+  --cs-color-border-quiet: #e5e6e5; /* Neutral border, quietest tone. */
+  --cs-color-fill-loud: #323232; /* Neutral fill, strongest tone. */
+  --cs-color-fill-normal: #e5e6e5; /* Neutral fill, default tone. */
+  --cs-color-fill-quiet: #f0efee; /* Neutral fill, quietest tone. */
+  --cs-color-focus: #ffd000; /* The focus ring colour — Cru yellow in both themes. */
+  --cs-color-mix-active: #1d1d1d; /* Mixed into a control at 10% while pressed — not used directly. */
+  --cs-color-mix-hover: #1d1d1d; /* Mixed into a control at 10% on hover — not used directly. */
+  --cs-color-on-loud: #ffffff; /* Text on a loud neutral fill. */
+  --cs-color-on-normal: #464545; /* Text on a normal neutral fill. */
+  --cs-color-on-quiet: #565652; /* Text on a quiet neutral fill. */
+  --cs-color-overlay-inline: rgba(255, 255, 255, 0.251); /* A lighter scrim for inline overlays. */
+  --cs-color-overlay-modal: rgba(36, 36, 36, 0.502); /* The scrim behind a modal dialog. */
+  --cs-color-surface-border: #e5e6e5; /* The default hairline between surfaces. */
+  --cs-color-surface-default: #ffffff; /* The page background. Everything else sits on this. */
+  --cs-color-surface-lowered: #f0efee; /* Surfaces recessed below the page — wells, inset panels. */
+  --cs-color-surface-raised: #ffffff; /* Surfaces that sit above the page — cards, menus, dialogs. */
+  --cs-color-text-link: #008192; /* Link text. Cyan in light, lightened in dark to hold contrast. */
+  --cs-color-text-normal: #1d1d1d; /* Body text on any surface token. */
+  --cs-color-text-quiet: #565652; /* Secondary text — captions, hints, metadata. */
+  --cs-form-control-activated-color: #ffd000; /* Form control: activated color. */
+  --cs-form-control-background-color: #ffffff; /* Form control: background color. */
+  --cs-form-control-border-color: #757575; /* Form control: border color. */
+  --cs-form-control-hint-color: #565652; /* Form control: hint color. */
+  --cs-form-control-label-color: #1d1d1d; /* Form control: label color. */
+  --cs-form-control-placeholder-color: #757575; /* Form control: placeholder color. */
+  --cs-form-control-value-color: #1d1d1d; /* Form control: value color. */
+  --cs-tooltip-background-color: #1d1d1d; /* Tooltip: background color. */
+  --cs-tooltip-border-color: #1d1d1d; /* Tooltip: border color. */
+  --cs-tooltip-content-color: #ffffff; /* Tooltip: content color. */
+}
+[data-theme="dark"] {
+  --cs-color-brand-95: var(--cs-color-yellow-95);
+  --cs-color-brand-90: var(--cs-color-yellow-90);
+  --cs-color-brand-80: var(--cs-color-yellow-80);
+  --cs-color-brand-70: var(--cs-color-yellow-70);
+  --cs-color-brand-60: var(--cs-color-yellow-60);
+  --cs-color-brand-50: var(--cs-color-yellow-50);
+  --cs-color-brand-40: var(--cs-color-yellow-40);
+  --cs-color-brand-30: var(--cs-color-yellow-30);
+  --cs-color-brand-20: var(--cs-color-yellow-20);
+  --cs-color-brand-10: var(--cs-color-yellow-10);
+  --cs-color-brand-05: var(--cs-color-yellow-05);
+  --cs-color-brand-fill-quiet: #261d00;
+  --cs-color-brand-fill-normal: #3e3104;
+  --cs-color-brand-border-quiet: #3e3104;
+  --cs-color-brand-border-normal: #54440c;
+  --cs-color-brand-on-quiet: #b39200;
+  --cs-color-brand-on-normal: #d2ab00;
+  --cs-color-neutral-95: var(--cs-color-gray-95);
+  --cs-color-neutral-90: var(--cs-color-gray-90);
+  --cs-color-neutral-80: var(--cs-color-gray-80);
+  --cs-color-neutral-70: var(--cs-color-gray-70);
+  --cs-color-neutral-60: var(--cs-color-gray-60);
+  --cs-color-neutral-50: var(--cs-color-gray-50);
+  --cs-color-neutral-40: var(--cs-color-gray-40);
+  --cs-color-neutral-30: var(--cs-color-gray-30);
+  --cs-color-neutral-20: var(--cs-color-gray-20);
+  --cs-color-neutral-10: var(--cs-color-gray-10);
+  --cs-color-neutral-05: var(--cs-color-gray-05);
+  --cs-color-neutral-fill-quiet: #1d1d1d;
+  --cs-color-neutral-fill-normal: #323232;
+  --cs-color-neutral-fill-loud: #e5e6e5;
+  --cs-color-neutral-border-quiet: #323232;
+  --cs-color-neutral-border-normal: #464545;
+  --cs-color-neutral-on-quiet: #949595;
+  --cs-color-neutral-on-normal: #aeaeae;
+  --cs-color-neutral-on-loud: #121212;
+  --cs-color-highlight-95: var(--cs-color-purple-95);
+  --cs-color-highlight-90: var(--cs-color-purple-90);
+  --cs-color-highlight-80: var(--cs-color-purple-80);
+  --cs-color-highlight-70: var(--cs-color-purple-70);
+  --cs-color-highlight-60: var(--cs-color-purple-60);
+  --cs-color-highlight-50: var(--cs-color-purple-50);
+  --cs-color-highlight-40: var(--cs-color-purple-40);
+  --cs-color-highlight-30: var(--cs-color-purple-30);
+  --cs-color-highlight-20: var(--cs-color-purple-20);
+  --cs-color-highlight-10: var(--cs-color-purple-10);
+  --cs-color-highlight-05: var(--cs-color-purple-05);
+  --cs-color-highlight-fill-quiet: #271539;
+  --cs-color-highlight-fill-normal: #402758;
+  --cs-color-highlight-border-quiet: #402758;
+  --cs-color-highlight-border-normal: #563776;
+  --cs-color-highlight-on-quiet: #a886ce;
+  --cs-color-highlight-on-normal: #bca5da;
+  --cs-color-information-95: var(--cs-color-turquoise-95);
+  --cs-color-information-90: var(--cs-color-turquoise-90);
+  --cs-color-information-80: var(--cs-color-turquoise-80);
+  --cs-color-information-70: var(--cs-color-turquoise-70);
+  --cs-color-information-60: var(--cs-color-turquoise-60);
+  --cs-color-information-50: var(--cs-color-turquoise-50);
+  --cs-color-information-40: var(--cs-color-turquoise-40);
+  --cs-color-information-30: var(--cs-color-turquoise-30);
+  --cs-color-information-20: var(--cs-color-turquoise-20);
+  --cs-color-information-10: var(--cs-color-turquoise-10);
+  --cs-color-information-05: var(--cs-color-turquoise-05);
+  --cs-color-information-fill-quiet: #00222a;
+  --cs-color-information-fill-normal: #003744;
+  --cs-color-information-border-quiet: #003744;
+  --cs-color-information-border-normal: #004d5d;
+  --cs-color-information-on-quiet: #569eb3;
+  --cs-color-information-on-normal: #84b7c6;
+  --cs-color-success-95: var(--cs-color-green-95);
+  --cs-color-success-90: var(--cs-color-green-90);
+  --cs-color-success-80: var(--cs-color-green-80);
+  --cs-color-success-70: var(--cs-color-green-70);
+  --cs-color-success-60: var(--cs-color-green-60);
+  --cs-color-success-50: var(--cs-color-green-50);
+  --cs-color-success-40: var(--cs-color-green-40);
+  --cs-color-success-30: var(--cs-color-green-30);
+  --cs-color-success-20: var(--cs-color-green-20);
+  --cs-color-success-10: var(--cs-color-green-10);
+  --cs-color-success-05: var(--cs-color-green-05);
+  --cs-color-success-fill-quiet: #00240f;
+  --cs-color-success-fill-normal: #063b1f;
+  --cs-color-success-border-quiet: #063b1f;
+  --cs-color-success-border-normal: #05502b;
+  --cs-color-success-on-quiet: #00aa60;
+  --cs-color-success-on-normal: #24c976;
+  --cs-color-warning-95: var(--cs-color-orange-95);
+  --cs-color-warning-90: var(--cs-color-orange-90);
+  --cs-color-warning-80: var(--cs-color-orange-80);
+  --cs-color-warning-70: var(--cs-color-orange-70);
+  --cs-color-warning-60: var(--cs-color-orange-60);
+  --cs-color-warning-50: var(--cs-color-orange-50);
+  --cs-color-warning-40: var(--cs-color-orange-40);
+  --cs-color-warning-30: var(--cs-color-orange-30);
+  --cs-color-warning-20: var(--cs-color-orange-20);
+  --cs-color-warning-10: var(--cs-color-orange-10);
+  --cs-color-warning-05: var(--cs-color-orange-05);
+  --cs-color-warning-fill-quiet: #341600;
+  --cs-color-warning-fill-normal: #532600;
+  --cs-color-warning-border-quiet: #532600;
+  --cs-color-warning-border-normal: #703500;
+  --cs-color-warning-on-quiet: #f08020;
+  --cs-color-warning-on-normal: #f59857;
+  --cs-color-danger-95: var(--cs-color-cerise-95);
+  --cs-color-danger-90: var(--cs-color-cerise-90);
+  --cs-color-danger-80: var(--cs-color-cerise-80);
+  --cs-color-danger-70: var(--cs-color-cerise-70);
+  --cs-color-danger-60: var(--cs-color-cerise-60);
+  --cs-color-danger-50: var(--cs-color-cerise-50);
+  --cs-color-danger-40: var(--cs-color-cerise-40);
+  --cs-color-danger-30: var(--cs-color-cerise-30);
+  --cs-color-danger-20: var(--cs-color-cerise-20);
+  --cs-color-danger-10: var(--cs-color-cerise-10);
+  --cs-color-danger-05: var(--cs-color-cerise-05);
+  --cs-color-danger-fill-quiet: #42050e;
+  --cs-color-danger-fill-normal: #64131d;
+  --cs-color-danger-border-quiet: #64131d;
+  --cs-color-danger-border-normal: #851d2a;
+  --cs-color-danger-on-quiet: #e47377;
+  --cs-color-danger-on-normal: #ec9898;
+  --cs-color-link-95: var(--cs-color-cyan-95);
+  --cs-color-link-90: var(--cs-color-cyan-90);
+  --cs-color-link-80: var(--cs-color-cyan-80);
+  --cs-color-link-70: var(--cs-color-cyan-70);
+  --cs-color-link-60: var(--cs-color-cyan-60);
+  --cs-color-link-50: var(--cs-color-cyan-50);
+  --cs-color-link-40: var(--cs-color-cyan-40);
+  --cs-color-link-30: var(--cs-color-cyan-30);
+  --cs-color-link-20: var(--cs-color-cyan-20);
+  --cs-color-link-10: var(--cs-color-cyan-10);
+  --cs-color-link-05: var(--cs-color-cyan-05);
+  --cs-color-mix-active: #f0efee;
+  --cs-color-mix-hover: #f0efee;
+  --cs-color-overlay-inline: rgba(255, 255, 255, 0.102);
+  --cs-color-overlay-modal: rgba(0, 0, 0, 0.6);
+  --cs-color-surface-border: #323232;
+  --cs-color-surface-default: #121212;
+  --cs-color-surface-lowered: #0a0a0a;
+  --cs-color-surface-raised: #1d1d1d;
+  --cs-color-text-link: #00a3b8;
+  --cs-color-text-normal: #f0efee;
+  --cs-color-text-quiet: #949595;
+  --cs-form-control-background-color: #121212;
+  --cs-form-control-hint-color: #949595;
+  --cs-form-control-label-color: #f0efee;
+  --cs-form-control-value-color: #f0efee;
+  --cs-tooltip-background-color: #f0efee;
+  --cs-tooltip-border-color: #f0efee;
+  --cs-tooltip-content-color: #121212;
+}
+:root {
+  --cs-space-3xs: 2px; /* Hairline gaps — icon to label at the smallest sizes. */
+  --cs-space-2xs: 4px; /* Tight interior padding. */
+  --cs-space-xs: 8px; /* Gap inside a compact control. */
+  --cs-space-s: 12px; /* Default gap between related items. */
+  --cs-space-m: 16px; /* Default interior padding — the base step. */
+  --cs-space-l: 24px; /* Gap between groups; the default content rhythm. */
+  --cs-space-xl: 32px; /* Section padding. */
+  --cs-space-2xl: 40px; /* Gap between sections. */
+  --cs-space-3xl: 48px; /* Large section separation. */
+  --cs-space-4xl: 64px; /* Page-level vertical rhythm. */
+  --cs-space-5xl: 80px; /* The largest step — full-bleed section padding. */
+  --cs-content-spacing: 24px; /* The gap flow content uses between blocks. Aliases the l step. */
+  --cs-border-radius-square: 0px; /* No rounding. The brand reads geometric — square is a real choice here, not an omission. */
+  --cs-border-radius-s: 3px; /* Lightly softened — inputs, tags, tooltips. */
+  --cs-border-radius-m: 6px; /* The default — buttons, cards, menus. */
+  --cs-border-radius-l: 12px; /* Panels, dialogs, drawers. */
+  --cs-border-radius-pill: 9999px; /* Fully rounded ends — chips, toggles. */
+  --cs-border-radius-circle: 50%; /* A circle — avatars, icon buttons. */
+  --cs-font-size-3xs: 10px; /* 10px — fine print. */
+  --cs-font-size-2xs: 11px; /* 11px. */
+  --cs-font-size-xs: 12px; /* 12px — captions, h6. */
+  --cs-font-size-s: 14px; /* 14px — dense text. */
+  --cs-font-size-m: 16px; /* 16px — the base of the 1.125 modular scale. */
+  --cs-font-size-l: 20px; /* 20px — h4. */
+  --cs-font-size-xl: 25px; /* 25px — h3. */
+  --cs-font-size-2xl: 32px; /* 32px — h2. */
+  --cs-font-size-3xl: 41px; /* 41px — h1. */
+  --cs-font-size-4xl: 52px; /* 52px. */
+  --cs-font-size-5xl: 66px; /* 66px — the largest step. */
+  --cs-border-width-s: 1px; /* The default hairline. */
+  --cs-border-width-m: 2px; /* Emphasis border — selected and focused states. */
+  --cs-border-width-l: 3px; /* The heaviest border. */
+  --cs-shadow-offset-y-s: 2px; /* Resting elevation, y offset. See the README: the composed shadow tokens do not currently resolve in the Cru theme. */
+  --cs-shadow-blur-s: 2px; /* Resting elevation, blur. */
+  --cs-shadow-spread-s: -1px; /* Resting elevation, spread. */
+  --cs-shadow-offset-y-m: 4px; /* Raised elevation, y offset. */
+  --cs-shadow-blur-m: 4px; /* Raised elevation, blur. */
+  --cs-shadow-spread-m: -2px; /* Raised elevation, spread. */
+  --cs-shadow-offset-y-l: 8px; /* Floating elevation, y offset. */
+  --cs-shadow-blur-l: 8px; /* Floating elevation, blur. */
+  --cs-shadow-spread-l: -4px; /* Floating elevation, spread. */
+  --cs-font-weight-light: 300; /* Sora light — the brand uses a lighter weight for emphasis on a headline’s last line. */
+  --cs-font-weight-normal: 400; /* Body text. */
+  --cs-font-weight-semibold: 500; /* Labels and actions. Note the library calls 500 "semibold". */
+  --cs-font-weight-bold: 600; /* Headings. Note the library calls 600 "bold" — it does not go to 700. */
+  --cs-font-weight-body: 400; /* The weight body copy uses. Aliases normal. */
+  --cs-font-weight-heading: 600; /* The weight headings use. Aliases bold. */
+  --cs-font-weight-action: 500; /* The weight buttons and labels use. Aliases semibold. */
+  --cs-font-weight-code: 400; /* The weight code uses. */
+  --cs-font-weight-longform: 400; /* The weight longform serif text uses. */
+  --cs-line-height-condensed: 1.2; /* Headings and anything set large. */
+  --cs-line-height-normal: 1.6; /* Body copy. */
+  --cs-line-height-expanded: 2; /* Airy text — rare; long-form reading at small sizes. */
+  --cs-transition-fast: 75ms; /* Hover and press feedback. */
+  --cs-transition-normal: 150ms; /* The default — most state changes. */
+  --cs-transition-slow: 300ms; /* Entrances and exits: drawers, dialogs, toasts. */
+  --cs-transition-easing: ease; /* The easing curve every transition uses. */
+  --cs-form-control-height: 43px; /* The height every single-line form control resolves to. */
+  --cs-form-control-padding-block: 12px; /* Vertical padding inside a form control. */
+  --cs-form-control-padding-inline: 16px; /* Horizontal padding inside a form control. */
+  --cs-form-control-border-radius: 6px; /* Corner radius on form controls. */
+  --cs-form-control-border-width: 1px; /* Border width on form controls. */
+  --cs-form-control-toggle-size: 20px; /* The box of a checkbox or radio. */
+  --cs-form-control-label-line-height: 1.2; /* Line height of a control’s label. */
+  --cs-form-control-value-line-height: 1.2; /* Line height of a control’s value. */
+  --cs-form-control-hint-line-height: 1.6; /* Line height of a control’s hint text. */
+  --cs-form-control-label-font-weight: 500; /* Weight of a control’s label. */
+  --cs-form-control-value-font-weight: 400; /* Weight of a control’s value. */
+  --cs-form-control-hint-font-weight: 400; /* Weight of a control’s hint text. */
+  --cs-panel-border-radius: 12px; /* Corner radius on panels — dialogs, drawers, popovers. */
+  --cs-panel-border-width: 1px; /* Border width on panels. */
+  --cs-tooltip-border-radius: 3px; /* Corner radius on a tooltip. */
+  --cs-tooltip-border-width: 1px; /* Border width on a tooltip. */
+  --cs-tooltip-arrow-size: 6px; /* The tooltip arrow. */
+  --cs-tooltip-font-size: 14px; /* Tooltip text size. */
+  --cs-tooltip-line-height: 1.6; /* Tooltip line height. */
+  --cs-focus-ring-width: 3px; /* Thickness of the focus ring. */
+  --cs-focus-ring-offset: 1px; /* Gap between the control and its focus ring. */
+  --cs-border-style: solid; /* The line style every border uses. */
+  --cs-focus-ring-style: solid; /* The line style of the focus ring. Composed as: focus-ring-style focus-ring-width color-focus. */
+  --cs-panel-border-style: solid; /* The line style of a panel border. */
+  --cs-form-control-border-style: solid; /* The line style of a form control border. */
+  --cs-tooltip-border-style: solid; /* The line style of a tooltip border. */
+  --cs-button-transform-hover: none; /* What a button does on hover — nothing, by default. */
+  --cs-button-transform-active: scale(0.9875); /* The slight press-in while a button is held. */
+  --cs-link-decoration-hover: underline; /* The underline a link takes on hover. */
+  --font-body: Inter, ui-sans-serif, system-ui, sans-serif;
+  --font-heading: Sora, ui-sans-serif, system-ui, sans-serif;
+  --font-code: ui-monospace, monospace;
+  --font-longform: ui-serif, serif;
+  --text-h1: 600 41px/1.2 var(--font-heading); /* From the h1 rule in native.css — font-size-3xl. */
+  --text-h2: 600 32px/1.2 var(--font-heading); /* From the h2 rule — font-size-2xl. */
+  --text-h3: 600 25px/1.2 var(--font-heading); /* From the h3 rule — font-size-xl. */
+  --text-h4: 600 20px/1.2 var(--font-heading); /* From the h4 rule — font-size-l. */
+  --text-h5: 600 16px/1.2 var(--font-heading); /* From the h5 rule — font-size-m. */
+  --text-h6: 600 12px/1.2 var(--font-heading); /* From the h6 rule — font-size-xs. */
+  --text-body-l: 400 20px/1.6 var(--font-body); /* Lead paragraphs. */
+  --text-body: 400 16px/1.6 var(--font-body); /* From the body rule in native.css — the default. */
+  --text-body-s: 400 14px/1.6 var(--font-body); /* Dense text and table cells. */
+  --text-body-xs: 400 12px/1.6 var(--font-body); /* Captions and metadata. */
+  --text-body-2xs: 400 11px/1.6 var(--font-body); /* The smallest readable step. */
+  --text-body-3xs: 400 10px/1.6 var(--font-body); /* Legal and fine print only. */
+  --text-display-5xl: 600 66px/1.2 var(--font-heading); /* The largest step in the 1.125 scale. */
+  --text-display-4xl: 600 52px/1.2 var(--font-heading); /* Campaign headlines. */
+  --text-display-3xl: 600 41px/1.2 var(--font-heading); /* Also h1. */
+  --text-action-l: 500 20px/1.2 var(--font-body); /* Large buttons and labels. */
+  --text-action-m: 500 16px/1.2 var(--font-body); /* The default button and label. */
+  --text-action-s: 500 14px/1.2 var(--font-body); /* Compact buttons and labels. */
+}
+.h1 {
+  font-family: var(--font-heading);
+  font-size: 41px;
+  line-height: 1.2;
+  font-weight: 600;
+  letter-spacing: 0;
+}
+.h2 {
+  font-family: var(--font-heading);
+  font-size: 32px;
+  line-height: 1.2;
+  font-weight: 600;
+  letter-spacing: 0;
+}
+.h3 {
+  font-family: var(--font-heading);
+  font-size: 25px;
+  line-height: 1.2;
+  font-weight: 600;
+  letter-spacing: 0;
+}
+.h4 {
+  font-family: var(--font-heading);
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 600;
+  letter-spacing: 0;
+}
+.h5 {
+  font-family: var(--font-heading);
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: 600;
+  letter-spacing: 0;
+}
+.h6 {
+  font-family: var(--font-heading);
+  font-size: 12px;
+  line-height: 1.2;
+  font-weight: 600;
+  letter-spacing: 0;
+}
+.body-l {
+  font-family: var(--font-body);
+  font-size: 20px;
+  line-height: 1.6;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.body {
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 1.6;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.body-s {
+  font-family: var(--font-body);
+  font-size: 14px;
+  line-height: 1.6;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.body-xs {
+  font-family: var(--font-body);
+  font-size: 12px;
+  line-height: 1.6;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.body-2xs {
+  font-family: var(--font-body);
+  font-size: 11px;
+  line-height: 1.6;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.body-3xs {
+  font-family: var(--font-body);
+  font-size: 10px;
+  line-height: 1.6;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.display-5xl {
+  font-family: var(--font-heading);
+  font-size: 66px;
+  line-height: 1.2;
+  font-weight: 600;
+  letter-spacing: 0;
+}
+.display-4xl {
+  font-family: var(--font-heading);
+  font-size: 52px;
+  line-height: 1.2;
+  font-weight: 600;
+  letter-spacing: 0;
+}
+.display-3xl {
+  font-family: var(--font-heading);
+  font-size: 41px;
+  line-height: 1.2;
+  font-weight: 600;
+  letter-spacing: 0;
+}
+.action-l {
+  font-family: var(--font-body);
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 500;
+  letter-spacing: 0;
+}
+.action-m {
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: 500;
+  letter-spacing: 0;
+}
+.action-s {
+  font-family: var(--font-body);
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 500;
+  letter-spacing: 0;
+}
+@font-face {
+  font-family: "Sora";
+  src: url("assets/fonts/Sora.ttf") format("truetype");
+  font-weight: 100 800;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("assets/fonts/Inter.ttf") format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
