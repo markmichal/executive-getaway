@@ -34,7 +34,7 @@ All from Unsplash under the Unsplash License, cropped to 4:3.
 
 | File | Used for | Photographer | Source |
 |---|---|---|---|
-| `why-opportunities.jpg` | Meaningful Opportunities | Anthony McKissic | https://unsplash.com/photos/8y8OJiuQkCI |
+| `why-opportunities.jpg` | Meaningful Opportunities | Anthony McKissic | https://unsplash.com/photos/pdF7NyULp3w |
 | `why-rest.jpg` | Rest and Relaxation | Christian Bowen (Glendalough, Ireland) | https://unsplash.com/photos/YAFz4mqEp_s |
-| `why-friends.jpg` | A Community of Friends | Vitaly Gariev | https://unsplash.com/photos/k7moOgpIkU8 |
+| `why-friends.jpg` | A Community of Friends | Toa Heftiba | https://unsplash.com/photos/0baDgWmslZ8 |
 | `why-kids.jpg` | Bring the Kids! | Seljan Salim | https://unsplash.com/photos/6b2dnVlbVIU |
