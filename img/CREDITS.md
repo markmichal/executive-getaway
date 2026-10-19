@@ -9,7 +9,7 @@ Before adding a new photo, check its Unsplash page says "Free to use under the U
 | File | Used for | Photographer | Source | License | Location (per Unsplash) |
 |---|---|---|---|---|---|
 | `excursion-rmnp.jpg` | Excursions: Rocky Mountain National Park | Tommy Bond | https://unsplash.com/photos/1FXa9eTKXBM | Unsplash License | Rocky Mountain National Park, Colorado |
-| `excursion-downtown.jpg` | Excursions: Downtown Estes Park | Logan Gutierrez | https://unsplash.com/photos/0r6pBCCraSY | Unsplash License | Estes Park, Colorado |
+| `excursion-downtown.jpg` | Excursions: Downtown Estes Park (Caramel Crisp shop) | Sasha P | https://www.pexels.com/photo/taffy-and-popcorn-snack-bar-3258219/ | Pexels License | Estes Park, Colorado |
 | `excursion-horseback.jpg` | Excursions: Horseback riding | Colin Lloyd | https://unsplash.com/photos/p9MBJMACN5g | Unsplash License | Blue Lakes, Colorado |
 | `excursion-stanley-tour.jpg` | Excursions: Stanley Hotel history tour (F.O. Stanley statue) | Falynne Rice | https://unsplash.com/photos/7ds1TZZFHIo | Unsplash License | The Stanley Hotel, Estes Park, Colorado |
 | `kids-club.jpg` | Kids' Club (stand-in) | Amanda Costelloe | https://unsplash.com/photos/8EHfZL6rFFg | Unsplash License | Not listed |
