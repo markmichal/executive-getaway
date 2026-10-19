@@ -38,3 +38,9 @@ All from Unsplash under the Unsplash License, cropped to 4:3.
 | `why-rest.jpg` | Rest and Relaxation | Christian Bowen (Glendalough, Ireland) | https://unsplash.com/photos/YAFz4mqEp_s |
 | `why-friends.jpg` | A Community of Friends | Toa Heftiba | https://unsplash.com/photos/0baDgWmslZ8 |
 | `why-kids.jpg` | Bring the Kids! | Seljan Salim | https://unsplash.com/photos/6b2dnVlbVIU |
+
+## Welcome section
+
+| File | Used for | Source |
+|---|---|---|
+| `kevin-ginnette-young.jpg` | Welcome from Kevin | Kevin and Ginnette Young, from the About page of Kevin's blog (https://kevinjyoung.com/about/), posted 2016. Cropped to 4:5. Swap for a current headshot when we have one. |
