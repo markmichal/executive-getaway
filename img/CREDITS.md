@@ -14,7 +14,7 @@ Before adding a new photo, check its Unsplash page says "Free to use under the U
 | `excursion-stanley-tour.jpg` | Excursions: Stanley Hotel history tour (F.O. Stanley statue) | Falynne Rice | https://unsplash.com/photos/7ds1TZZFHIo | Unsplash License | The Stanley Hotel, Estes Park, Colorado |
 | `kids-club.jpg` | Kids' Club (stand-in) | Amanda Costelloe | https://unsplash.com/photos/8EHfZL6rFFg | Unsplash License | Not listed |
 | `kids-squad.jpg` | Kids' Squad (stand-in) | Artem Kniaz | https://unsplash.com/photos/DqgMHzeio7g | Unsplash License | Ukraine |
-| `kids-teens.jpg` | Teen program (stand-in) | Manny Moreno | https://unsplash.com/photos/9gLG64sWdd8 | Unsplash License | Killarney, Ontario, Canada |
+| `kids-teens-2.jpg` | Teen program | Cru (from Brad Jankowski, "Group Prayer.jpg" in Linda's EXECUTIVE GETAWAY 2027 IMAGES Drive folder) | Drive | Cru-owned | Cropped wide, rotated upright |
 
 The three kids' photos are stock stand-ins, so they keep their purple "Stand-in photo" tag on the page. Swap them for real photos of Cru's kids' and teen programs when we have them.
 
@@ -45,3 +45,4 @@ All from Unsplash under the Unsplash License, cropped to 4:3.
 |---|---|---|
 | `stanley-mountains.jpg` | Top photo (hero) | From Linda's Drive folder "EXECUTIVE GETAWAY 2027 IMAGES" |
 | `kevin-ginnette-young.jpg` | Welcome from Kevin | Kevin and Ginnette Young, from the About page of Kevin's blog (https://kevinjyoung.com/about/), posted 2016. Cropped to 4:5. Swap for a current headshot when we have one. |
+| `travel-estes-aerial.jpg` | Travel (Estes Park from above) | Demian Tejeda-Benitez | https://www.pexels.com/photo/9067501/ | Pexels License | Estes Park, CO |
