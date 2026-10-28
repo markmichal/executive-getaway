@@ -34,13 +34,14 @@ All from Unsplash under the Unsplash License, cropped to 4:3.
 
 | File | Used for | Photographer | Source |
 |---|---|---|---|
-| `why-opportunities.jpg` | Meaningful Opportunities | Anthony McKissic | https://unsplash.com/photos/pdF7NyULp3w |
-| `why-rest.jpg` | Rest and Relaxation | Christian Bowen (Glendalough, Ireland) | https://unsplash.com/photos/YAFz4mqEp_s |
-| `why-friends.jpg` | A Community of Friends | Toa Heftiba | https://unsplash.com/photos/0baDgWmslZ8 |
+| `why-opportunities-2.jpg` | Meaningful Opportunities | Timur Shakerzianov | https://unsplash.com/photos/bltJkly1Bfs |
+| `why-rest-2.jpg` | Rest and Relaxation | C.F. Photography | https://unsplash.com/photos/xXMDjNVGOBU |
+| `why-friends-2.jpg` | A Community of Friends | Queensland, Australia (tourism account) | https://unsplash.com/photos/g6FKXPq0SI0 |
 | `why-kids.jpg` | Bring the Kids! | Seljan Salim | https://unsplash.com/photos/6b2dnVlbVIU |
 
 ## Welcome section
 
 | File | Used for | Source |
 |---|---|---|
+| `stanley-mountains.jpg` | Top photo (hero) | From Linda's Drive folder "EXECUTIVE GETAWAY 2027 IMAGES" |
 | `kevin-ginnette-young.jpg` | Welcome from Kevin | Kevin and Ginnette Young, from the About page of Kevin's blog (https://kevinjyoung.com/about/), posted 2016. Cropped to 4:5. Swap for a current headshot when we have one. |

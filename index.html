@@ -32,6 +32,7 @@ a{color:#007890}a:hover{color:#004d5d}
 @media (max-width:900px){.navlinks{display:none}.split{grid-template-columns:minmax(0,1fr);gap:32px}}
 @media (max-width:700px){.quad{grid-template-columns:repeat(2,minmax(0,1fr))}.quad > *:nth-child(even){margin-top:24px}.quad.quad-flat > *:nth-child(even){margin-top:0}}
 @media (max-width:480px){.quad.quad-flat{grid-template-columns:minmax(0,1fr)}}
+@media (max-width:700px){.hero-photo{height:440px !important}.hero-photo img{object-position:72% 100% !important}.hero-card{margin-top:-60px !important}}
 </style>
 </head>
 <body>
@@ -57,10 +58,10 @@ a{color:#007890}a:hover{color:#004d5d}
 </header>
 
 <section id="top" style="position: relative">
-<div style="position: relative; height: 640px; background: #e5e6e9; overflow: hidden">
-<img src="img/stanley-front.jpg" alt="The Stanley Hotel" style="width: 100%; height: 100%; object-fit: cover; display: block">
+<div class="hero-photo" style="position: relative; height: 640px; background: #e5e6e9; overflow: hidden">
+<img src="img/stanley-mountains.jpg" alt="The Stanley Hotel below the rocky peaks above Estes Park at sunrise" style="width: 100%; height: 100%; object-fit: cover; object-position: center 100%; display: block">
 </div>
-<div style="max-width: 1200px; margin: -200px auto 0; padding: 0 20px; position: relative">
+<div class="hero-card" style="max-width: 1200px; margin: -200px auto 0; padding: 0 20px; position: relative">
 <div style="background: #ffffff; border-radius: 12px; padding: clamp(32px, 5vw, 64px); max-width: 720px; box-shadow: 0 24px 60px rgba(31,31,71,0.12)">
 <p style="margin: 0 0 16px; font-size: 13px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: #007890">Cru High School</p>
 <h1 style="margin: 0; font-family: Sora, sans-serif; font-weight: 800; font-size: clamp(42px, 7vw, 76px); line-height: 1.02; letter-spacing: -0.025em; color: #1f1f47">Executive Getaway</h1>
@@ -69,7 +70,7 @@ a{color:#007890}a:hover{color:#004d5d}
 <div style="display: flex; align-items: center; gap: 10px"><cs-icon name="calendar_month" style="color: #007890; font-size: 20px"></cs-icon><span><strong style="color: #1f1f47">June 24 to 27, 2027</strong></span></div>
 <div style="display: flex; align-items: center; gap: 10px"><cs-icon name="location_on" style="color: #007890; font-size: 20px"></cs-icon><span>The Historic Stanley Hotel, Estes Park, Colorado</span></div>
 </div>
-<p style="margin: 24px 0 32px; font-size: 18px; line-height: 1.6; color: #565652; max-width: 520px">Four days in the Colorado Rockies celebrating what God is doing among high school students across the country and around the world.</p>
+<p style="margin: 24px 0 32px; font-size: 18px; line-height: 1.6; color: #565652; max-width: 520px">Join us for four days in the Colorado Rockies celebrating what God is doing among high school students across the country and around the world.</p>
 <cs-button variant="brand" appearance="accent" size="l" href="#">Register now</cs-button>
 </div>
 </div>
@@ -78,17 +79,17 @@ a{color:#007890}a:hover{color:#004d5d}
 <section aria-label="Why come" style="padding: 96px 20px 24px">
 <div class="quad quad-flat" style="max-width: 1200px; margin: 0 auto">
 <div>
-<div style="position: relative; aspect-ratio: 4 / 3; border-radius: 12px 12px 0 0; overflow: hidden; background: #e5e6e9; border-bottom: 4px solid #ffd000"><img src="img/why-opportunities.jpg" alt="A youth leader talking with a group of middle school students outdoors" style="width: 100%; height: 100%; object-fit: cover; display: block"></div>
+<div style="position: relative; aspect-ratio: 4 / 3; border-radius: 12px 12px 0 0; overflow: hidden; background: #e5e6e9; border-bottom: 4px solid #ffd000"><img src="img/why-opportunities-2.jpg" alt="An adult leader talking with a high school student outdoors" style="width: 100%; height: 100%; object-fit: cover; display: block"></div>
 <h3 style="margin: 20px 0 10px; font-family: Sora, sans-serif; font-weight: 800; font-size: 21px; line-height: 1.2; letter-spacing: -0.01em; color: #1f1f47">Meaningful Opportunities</h3>
 <p style="margin: 0; font-size: 15px; line-height: 1.6; color: #41435d">Hear how God is at work among high school students around the world, and how you can help students meet Jesus.</p>
 </div>
 <div>
-<div style="position: relative; aspect-ratio: 4 / 3; border-radius: 12px 12px 0 0; overflow: hidden; background: #e5e6e9; border-bottom: 4px solid #ffd000"><img src="img/why-rest.jpg" alt="A smiling couple standing together by a mountain lake" style="width: 100%; height: 100%; object-fit: cover; display: block"></div>
+<div style="position: relative; aspect-ratio: 4 / 3; border-radius: 12px 12px 0 0; overflow: hidden; background: #e5e6e9; border-bottom: 4px solid #ffd000"><img src="img/why-rest-2.jpg" alt="A husband kissing his smiling wife on the forehead with mountains behind them" style="width: 100%; height: 100%; object-fit: cover; display: block"></div>
 <h3 style="margin: 20px 0 10px; font-family: Sora, sans-serif; font-weight: 800; font-size: 21px; line-height: 1.2; letter-spacing: -0.01em; color: #1f1f47">Rest and Relaxation</h3>
 <p style="margin: 0; font-size: 15px; line-height: 1.6; color: #41435d">Find unhurried time in the mountains with the Lord, your spouse, or friends.</p>
 </div>
 <div>
-<div style="position: relative; aspect-ratio: 4 / 3; border-radius: 12px 12px 0 0; overflow: hidden; background: #e5e6e9; border-bottom: 4px solid #ffd000"><img src="img/why-friends.jpg" alt="Friends laughing over coffee in a bright cafe by big windows" style="width: 100%; height: 100%; object-fit: cover; display: block"></div>
+<div style="position: relative; aspect-ratio: 4 / 3; border-radius: 12px 12px 0 0; overflow: hidden; background: #e5e6e9; border-bottom: 4px solid #ffd000"><img src="img/why-friends-2.jpg" alt="Two couples laughing and sharing a meal at an outdoor table" style="width: 100%; height: 100%; object-fit: cover; display: block"></div>
 <h3 style="margin: 20px 0 10px; font-family: Sora, sans-serif; font-weight: 800; font-size: 21px; line-height: 1.2; letter-spacing: -0.01em; color: #1f1f47">A Community of Friends</h3>
 <p style="margin: 0; font-size: 15px; line-height: 1.6; color: #41435d">Reconnect with old friends and meet new ones who care about the next generation.</p>
 </div>
@@ -110,7 +111,7 @@ a{color:#007890}a:hover{color:#004d5d}
 <blockquote style="margin: 0; font-family: Sora, sans-serif; font-weight: 300; font-size: clamp(24px, 3vw, 34px); line-height: 1.35; letter-spacing: -0.01em; color: #1f1f47"><span class="pht">“Placeholder quote from Kevin Young. Two or three sentences on why this weekend matters and what God is doing among high school students.”</span></blockquote>
 <p style="margin: 32px 0 4px; font-family: Sora, sans-serif; font-weight: 800; font-size: 18px">Kevin Young</p>
 <p style="margin: 0 0 20px; font-size: 15px; color: #565652">National Director, Cru High School</p>
-<p style="margin: 0; font-size: 16px; line-height: 1.7; color: #565652">Kevin grew up in rural New Jersey and ran track at Eastern Michigan University on a scholarship. That's where he met his wife, Ginnette. They married in 1982, have five grown children, and live in Austin, Texas. Kevin loves a good story, and he loves telling them even more.</p>
+<p style="margin: 0; font-size: 16px; line-height: 1.7; color: #565652">Kevin and Ginnette joined Cru staff in 1982, the same year they married after graduating from Eastern Michigan University. They have spent all of their more than 40 years of ministry with Cru High School, serving in Minnesota, San Diego, Orlando and New York City. They have five grown children and eight grandchildren, and they live in Austin, Texas.</p>
 </div>
 </div>
 </section>
@@ -184,14 +185,14 @@ a{color:#007890}a:hover{color:#004d5d}
 <p style="margin: 0; font-size: 13px; font-weight: 600; color: #007890">June 27</p>
 <h3 style="margin: 6px 0 18px; font-family: Sora, sans-serif; font-weight: 800; font-size: 24px">Sunday</h3>
 <ul style="margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 10px; font-size: 15px; line-height: 1.5; color: #41435d">
-<li>Celebration brunch</li>
+<li>Celebration brunch and closing session</li>
 <li><strong style="color: #1f1f47">11 AM</strong> Event closes</li>
 </ul>
 </div>
 </div>
 <div style="display: flex; gap: 14px; align-items: flex-start; background: #fff2cc; border-radius: 12px; padding: 20px 24px; font-size: 16px; line-height: 1.6; color: #3e3104">
 <cs-icon name="info" style="font-size: 22px; flex-shrink: 0; margin-top: 2px"></cs-icon>
-<p style="margin: 0"><strong>Booking flights?</strong> Please book return flights after 2 PM on Sunday. The airport is about 1.5 hours from the hotel.</p>
+<p style="margin: 0"><strong>Booking flights?</strong> Please book return flights after 2 PM on Sunday. Fly in and out of Denver International Airport (DEN), about 1.5 hours from the hotel.</p>
 </div>
 </div>
 </section>
@@ -359,7 +360,7 @@ a{color:#007890}a:hover{color:#004d5d}
 <cs-accordion-item label="What will the program consist of?">Morning and evening sessions with Kevin Young and other leaders, student stories, time with young staff apprentices, an overview of Cru High School's three-year strategic initiatives, free afternoons with optional excursions, and the opening night of Rocky Mountain Getaway.</cs-accordion-item>
 <cs-accordion-item label="What does it cost?">Guest accommodations, breakfast, lunch, and dinners are provided at no cost. Guests cover their own airfare and transportation. Optional local excursions require a fee.</cs-accordion-item>
 <cs-accordion-item label="When should I arrive?">Registration is Thursday, June 24, from 3 to 5 PM at the Stanley Hotel. Denver International Airport is about 1.5 hours away, so plan your flight with that drive in mind.</cs-accordion-item>
-<cs-accordion-item label="When should I book my return flight?">After 2 PM on Sunday, June 27. The event closes at 11 AM and the airport is about 1.5 hours away.</cs-accordion-item>
+<cs-accordion-item label="When should I book my return flight?">After 2 PM on Sunday, June 27. The event closes at 11 AM and Denver International Airport (DEN) is about 1.5 hours away.</cs-accordion-item>
 <cs-accordion-item label="Can I bring my kids?">Yes. Kids' Club serves ages 0 to 4, Kids' Squad serves grades K to 5, and the teen program serves grades 6 to 12.</cs-accordion-item>
 <cs-accordion-item label="Who do I contact?">Linda Stephens, <a href="mailto:linda.stephens@cru.org">linda.stephens@cru.org</a></cs-accordion-item>
 </cs-accordion>
