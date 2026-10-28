@@ -14,7 +14,7 @@ Before adding a new photo, check its Unsplash page says "Free to use under the U
 | `excursion-stanley-tour.jpg` | Excursions: Stanley Hotel history tour (F.O. Stanley statue) | Falynne Rice | https://unsplash.com/photos/7ds1TZZFHIo | Unsplash License | The Stanley Hotel, Estes Park, Colorado |
 | `kids-club.jpg` | Kids' Club (stand-in) | Amanda Costelloe | https://unsplash.com/photos/8EHfZL6rFFg | Unsplash License | Not listed |
 | `kids-squad.jpg` | Kids' Squad (stand-in) | Artem Kniaz | https://unsplash.com/photos/DqgMHzeio7g | Unsplash License | Ukraine |
-| `kids-teens-2.jpg` | Teen program | Cru (from Brad Jankowski, "Group Prayer.jpg" in Linda's EXECUTIVE GETAWAY 2027 IMAGES Drive folder) | Drive | Cru-owned | Cropped wide, rotated upright |
+| `kids-teens-3.jpg` | Teen program | Timur Shakerzianov | https://unsplash.com/photos/uA0yYcZuH_U | Unsplash License | |
 
 The three kids' photos are stock stand-ins, so they keep their purple "Stand-in photo" tag on the page. Swap them for real photos of Cru's kids' and teen programs when we have them.
 
