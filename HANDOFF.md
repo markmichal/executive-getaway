@@ -17,18 +17,22 @@ Approved direction: **A, light and airy** (Shawn's preference), chosen from four
 
 ## Sections, in order
 
-Hero, four-photo row, welcome from Kevin Young, event summary (What/When/Where/Cost), schedule, travel, kids and teens, free time and excursions, highlights, strategic initiatives, FAQ accordion, Register Today band, footer.
+Hero, four-photo row, welcome from Kevin Young, event summary (What/When/Where/Cost), schedule, travel, kids and teens, free time and excursions, highlights (stories: Peyton, Lake Nona, Angel), FAQ accordion, Register Today band, footer.
+
+## Decisions (team rulings)
+
+- Register buttons (nav, hero, Register Today band) go to FundEasy: https://v4app.fundeasy.com/events/attendance/1427/event (Linda, 2026-11-04).
+- Live at https://cruexecutivegetaway.org (GoDaddy DNS to GitHub Pages, 2026-10-28). Still has the `noindex` tag while it's a draft.
+- Kevin's quote is Brad's edited version, which Kevin approved. Shown at 20px desktop, 18px phone so it lines up with his photo.
+- Kids and teens wording comes from the Campus Ministry Summit site, minus Summit-only logistics. No staff names or emails.
+- "Next three years" strategic initiatives box removed (2026-10-28). Two passing mentions remain in Details and the FAQ.
+- Travel shows only the drive time from Denver plus an Estes Park photo. No rental car, shuttle or transfer cards.
+- "Join us" wording, not "You are invited." Buttons say "Register now."
 
 ## Still open
 
-1. FundEasy registration URL. Every Register button points to `#` for now.
-2. Kevin Young's headshot, quote and bio.
-3. Kids' Club, Kids' Squad and teen program: photos, descriptions, and the staff lead names and emails.
-4. Excursion photos: Rocky Mountain National Park, downtown Estes Park, horseback riding, Stanley Hotel history tour. Use only free-licensed photos (Unsplash, Pexels, or NPS public domain) and log the credits.
-5. Two more highlight stories (Lake Nona High School football is the first). These may become Vimeo embeds.
-6. Strategic initiatives summary and download file.
-7. Travel details: rental car, shuttle and group transfer.
-8. Hosting and domain (cruexecutivegetaway.com was mentioned). Josh Dean owns what can be hosted on Cru domains.
+1. Whether to keep "Optional local excursions require a fee" in the Cost box and FAQ.
+2. Removing the `noindex` tag when the team is ready for Google to list the site.
 
 ## Facts to keep exact
 
